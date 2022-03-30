@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+
+    <title>Memory game!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  
+  
+  
+  
+  <!-- this is the start of content -->
+    
+  </head>
+  <body>
+  
+    <h1>Light and sound memory game!</h1>
+    
+
+         
+     
+    <p> 
+      Repeat the sequence as shown by pressing the buttons. 
+    </p>
+      
+    
+    <p>
+ 
+      
+      <button id="startBtn" onclick="startGame()">Start</button>
+      
+      
+      <button class = "hidden" id="stopBtn" onclick="stopGame()">End</button>
+     
+ 
+  
+
+      
+      <!-- Added four extra buttons -->
+
+    <div id="gameButtonArea">
+      
+      <button id = "button1" onclick = "guess(1);" onmousedown = "startTone(1)" onmouseup = "stopTone()"></button>
+               
+        
+      <button id = "button2" onclick = "guess(2)" onmousedown = "startTone(2)" onmouseup = "stopTone()"></button>              
+      
+      
+      <button id = "button3" onclick = "guess(3)" onmousedown = "startTone(3)" onmouseup = "stopTone()"></button>              
+      
+      
+      <button id = "button4" onclick = "guess(4)" onmousedown = "startTone(4)" onmouseup = "stopTone()"></button>              
+      
+      
+      <button id = "button5" onclick = "guess(5)" onmousedown = "startTone(5)" onmouseup = "stopTone()"></button>    
+    
+      
+      <button id = "button6" onclick = "guess(6)" onmousedown = "startTone(6)" onmouseup = "stopTone()"></button>    
+
+      
+      <button id = "button7" onclick = "guess(7)" onmousedown = "startTone(7)" onmouseup = "stopTone()"></button>    
+
+      
+      <button id = "button8" onclick = "guess(8)" onmousedown = "startTone(8)" onmouseup = "stopTone()"></button>    
+      
+    </div>
+    </p>
+    
+
+    
+  </body>
+</html>
+
